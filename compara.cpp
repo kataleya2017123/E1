@@ -1,17 +1,19 @@
+//janeth altafuya mideros
+//modificado 01-10-2022
 #include<iostream>
 using namespace std;
 int main()
 {
-  float k,p;
-  cout<<"Ingrese k  : "; cin>>k;
-  cout<<"Ingrese p  : "; cin>>p;
-  if(k==p){
+  float j,a;
+  cout<<"Ingrese j  : "; cin>>j;
+  cout<<"Ingrese a  : "; cin>>a;
+  if(j==a){
      cout<<"Son iguales"<<endl;
   }else{
-     if(k<p){
-       cout<<k<<" es el menor que "<<p<<"\n";
+     if(j<a){
+       cout<<j<<" es el menor que "<<a<<"\n";
      }else{
-       cout<<p<<" es el menor que "<<k<<"\n";
+       cout<<a<<" es el menor que "<<j<<"\n";
      }
   }
 
